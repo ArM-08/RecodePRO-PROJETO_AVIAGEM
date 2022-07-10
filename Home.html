@@ -25,16 +25,16 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
               <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                <li class="nav-item">
+                <li class="nav-item m-1">
                   <a class="nav-link active" aria-current="page" href="Home.html"> <b><b class="text-warning ">H</b>ome</b></a>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item m-1">
                   <a class="nav-link" href="Destinos.html"><b><b class="text-warning">D</b>estinos</b></a>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item m-1">
                   <a class="nav-link" href="Promoçoes.html"><b><b class="text-warning">P</b>romoções</b></a>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item m-1">
                   <a class="nav-link" href="Contato.html"><b><b class="text-warning">C</b>ontato</b></a>
                 </li>
               </ul>
@@ -91,60 +91,59 @@
         <div class="conteudo row g-0 d-flex justify-content-center">
           <div class="col-10 shadow-info m-4 bg-warning" style="border-radius:50px">
             <div class="row g-0 mx-5">
-              <p class="col-12 h1 text-Dark p-4">Passagens aéreas</p>
+              <p class="col-12 h2 text-Dark p-4"style="font-family: tommy;">Passagens aéreas</p>
             </div>
-            <div class="row g-0 m-1">
-              <div class="col-xxl-3 col-md-5 col-12">
+            <div class="row g-0 m-1 ms-4">
+              <div class="col-xxl-2 col-md-5 col-12">
                 <form>
-                  <div class="mb-3 d-flex justify-content-center align-items-center">
-                    <a class="btn btn-primary" style="background-color: #dd4b39; margin: 45px 10px 0px 0px;" href="#!" role="button"><i class="bi bi-pin-map"></i></a>
+                  <div class="mb-3 d-flex justify-content-center align-items-end text-center">
+                    <a class="btn btn-primary" style="background-color: #dd4b39; margin: 0px 10px 0px 0px;" role="button"><i class="bi bi-pin-map"></i></a>
                     <div>
-                      <label for="exampleInputEmail1" class="form-label">De onde você está saindo?</label>
-                      <input type="text" class="form-control" id="exampleInputEmail1" style="margin-top:10px" placeholder="Busque um aeroporto" aria-describedby="emailHelp"/>
-                    </div>
-                  </div>
-                </form>
-              </div>
-
-              <div class="col-xxl-3 col-md-5 col-12">
-                <form>
-                  <div class="mb-3 d-flex justify-content-center align-items-center">
-                    <a class="btn btn-primary mt-6" style="background-color: #dd4b39; margin: 45px 10px 0px 0px;" href="#!" role="button"><i class="bi bi-pin-map-fill"></i></a>
-                    <div>
-                      <label for="exampleInputEmail1" class="form-label ">Para onde você vai?</label>
+                      <label for="exampleInputEmail1" class="form-label ">Embarque</label>
                       <input type="text" class="form-control" id="exampleInputEmail1" style="margin-top:10px"placeholder="Busque uma cidade" aria-describedby="emailHelp"/>
                     </div>
                   </div>
                 </form>
               </div>
-              <div class="col-xxl-2 col-md-4 col-12">
+
+              <div class="col-xxl-2 col-md-5 col-12">
                 <form>
-                  <div class="mb-3 d-flex justify-content-center align-items-center">
-                    
+                  <div class="mb-3 d-flex justify-content-center align-items-end text-center">
+                    <a class="btn btn-primary" style="background-color: #dd4b39; margin: 0px 10px 0px 0px;" role="button"><i class="bi bi-pin-map-fill"></i></a>
                     <div>
-                      <label for="exampleInputEmail1" class="form-label " style="margin-left: 60px;">Escolha o periodo</label>
-                      <div class="d-flex justify-content-around align-items-center">
-                        <a class="btn btn-primary mb-2 " style="background-color: #dd4b39;" role="button"><i class="bi bi-calendar-date"></i></a>
-                        <input type="date" class="form-control " style="margin:10px;" id="exampleInputEmail1" placeholder="Ida" aria-describedby="emailHelp"/>
-                      </div>
+                      <label for="exampleInputEmail1" class="form-label ">Desembarque</label>
+                      <input type="text" class="form-control" id="exampleInputEmail1" style="margin-top:10px"placeholder="Busque uma cidade" aria-describedby="emailHelp"/>
                     </div>
                   </div>
                 </form>
               </div>
-              <div class="col-xxl-2 col-md-4 col-12">
+              
+              <div class="col-xxl-3 col-md-5 col-12">
                 <form>
-                  <div class="mb-3 d-flex justify-content-center align-items-center">
-                    <div>
-                      <label for="exampleInputEmail1" class="form-label" style="margin-left: 60px;">Volta</label>
-                      <div class="d-flex justify-content-around align-items-center">
-                        <input type="date" class="form-control " style="margin:10px;" id="exampleInputEmail1" placeholder="volta" aria-describedby="emailHelp"/>
+                  <div class="mb-3 d-flex justify-content-center align-items-end text-center">
+                    <a class="btn btn-primary" style="background-color: #dd4b39; margin: 0px 10px 0px 0px;" role="button"><i class="bi bi-calendar-date"></i></a>
+                      <div>
+                        <label for="exampleInputEmail1" class="form-label">Escolha a ida</label>
+                        <input type="date" class="form-control" id="exampleInputEmail1" style="margin-top:10px" placeholder="Ida" aria-describedby="emailHelp"/>
                       </div>
                     </div>
-                  </div>
+                 
                 </form>
               </div>
-              <div class="col-xxl-1 col-md-1 col-12 d-flex justify-content-center align-items-center ">
-                <button type="submit" class="btn btn-dark"style="margin-top: 13px">
+              <div class="col-xxl-3 col-md-5 col-12">
+                <form>
+                  <div class="mb-3 d-flex justify-content-center align-items-end text-center">
+                    <a class="btn btn-primary" style="background-color: #dd4b39; margin: 0px 10px 0px 0px;" role="button"><i class="bi bi-calendar-date"></i></a>
+                      <div>
+                        <label for="exampleInputEmail1" class="form-label">Escolha a volta</label>
+                        <input type="date" class="form-control" id="exampleInputEmail1" style="margin-top:10px" placeholder="Ida" aria-describedby="emailHelp"/>
+                      </div>
+                    </div>
+                 
+                </form>
+              </div>
+              <div class="col-xxl-1 col-md-1 col-12 d-flex justify-content-center align-items-end mb-3">
+                <button type="submit" class="btn btn-dark">
                   Buscar
                 </button>
               </div>
@@ -157,7 +156,7 @@
       <!--segunda section-->
       <section>
         <div class="row mx-auto my-auto justify-content-center">
-          <h3 style="font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif">Os mais buscados</h3>
+          <h3 style="font-family: tommy;">Os mais buscados</h3>
           <div id="recipeCarousel" class="carousel slide" data-bs-ride="carousel">
               <div class="carousel-inner" role="listbox">
                   <div class="carousel-item active">
@@ -166,7 +165,7 @@
                               <div class="card-img">
                                   <img src="Imagens/rio de janeiro(carousel).jpg" class="img-fluid">
                               </div>
-                              <div class="card-img-overlay text-center text-light" style="-webkit-text-stroke-width: 1px;-webkit-text-stroke-color: black;"><h2>Rio de Janeiro</h2></div>
+                              <div class="card-img-overlay text-center text-light" style="-webkit-text-stroke-width: 1px;-webkit-text-stroke-color: black; font-family: tommy;"><h2>Rio de Janeiro</h2></div>
                           </div>
                       </div>
                   </div>
@@ -176,7 +175,7 @@
                               <div class="card-img">
                                   <img src="Imagens/florianopolis(carousel).jpg" class="img-fluid">
                               </div>
-                              <div class="card-img-overlay text-center text-light"style="-webkit-text-stroke-width: 1px;-webkit-text-stroke-color: black;"><h2>Florianópolis</h2></div>
+                              <div class="card-img-overlay text-center text-light"style="-webkit-text-stroke-width: 1px;-webkit-text-stroke-color: black; font-family: tommy;"><h2>Florianópolis</h2></div>
                           </div>
                       </div>
                   </div>
@@ -186,7 +185,7 @@
                               <div class="card-img">
                                   <img src="Imagens/porto de galinhas(carousel).jpg" class="img-fluid">
                               </div>
-                              <div class="card-img-overlay text-center text-light"style="-webkit-text-stroke-width: 1px;-webkit-text-stroke-color: black;"><h2>Porto de galinhas</h2></div>
+                              <div class="card-img-overlay text-center text-light"style="-webkit-text-stroke-width: 1px;-webkit-text-stroke-color: black; font-family: tommy;"><h2>Porto de galinhas</h2></div>
                           </div>
                       </div>
                   </div>
@@ -196,7 +195,7 @@
                               <div class="card-img">
                                   <img src="Imagens/recife(carousel).jpg" class="img-fluid">
                               </div>
-                              <div class="card-img-overlay text-center text-light"style="-webkit-text-stroke-width: 1px;-webkit-text-stroke-color: black;"><h2>Recife</h2></div>
+                              <div class="card-img-overlay text-center text-light"style="-webkit-text-stroke-width: 1px;-webkit-text-stroke-color: black; font-family: tommy;"><h2>Recife</h2></div>
                           </div>
                       </div>
                   </div>
@@ -206,7 +205,7 @@
                               <div class="card-img">
                                   <img src="Imagens/disney(carousel).jpg" class="img-fluid">
                               </div>
-                              <div class="card-img-overlay text-center text-light"style="-webkit-text-stroke-width: 1px;-webkit-text-stroke-color: black;"><h2>Disney</h2></div>
+                              <div class="card-img-overlay text-center text-light"style="-webkit-text-stroke-width: 1px;-webkit-text-stroke-color: black; font-family: tommy;"><h2>Disney</h2></div>
                           </div>
                       </div>
                   </div>
@@ -216,7 +215,7 @@
                               <div class="card-img">
                                   <img src="Imagens/paris(carousel).jpg" class="img-fluid">
                               </div>
-                              <div class="card-img-overlay text-center text-light"style="-webkit-text-stroke-width: 1px;-webkit-text-stroke-color: black;"><h2>Paris</h2></div>
+                              <div class="card-img-overlay text-center text-light"style="-webkit-text-stroke-width: 1px;-webkit-text-stroke-color: black; font-family: tommy;"><h2>Paris</h2></div>
                           </div>
                       </div>
                   </div>
@@ -325,64 +324,53 @@
       <!--=section FIM-->
       <!-- Footer -->
       <footer class="text-center text-lg-start bg-light text-muted">
-  <div class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
-    <div class="me-5 d-none d-lg-block">
-      <span>Aviagem nas redes sociais:</span>
-    </div>
-    <div>
-      <a href="" class="me-4 text-reset"><i class="bi bi-facebook"></i></a>
-      <a href="" class="me-4 text-reset"><i class="bi bi-twitter"></i></a>
-      <a href="" class="me-4 text-reset"><i class="bi bi-google"></i></a>
-      <a href="" class="me-4 text-reset"><i class="bi bi-instagram"></i></a>
-      <a href="" class="me-4 text-reset"><i class="bi bi-linkedin"></i></a>
-    </div>
-  </div>
-  <div class="">
-    <div class="container text-center text-md-start mt-5">
-      <!-- Grid row -->
-      <div class="row mt-3">
-        <!-- Grid column -->
-        <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
-          <!-- Content -->
-          <h6 class="text-uppercase fw-bold mb-4">
-            <i class="fas fa-gem me-3"></i>AViagem
-          </h6>
-          <p>
-              Aviagem está presente no Brasil e mais de 100 países para que possamos fazer de sua viagem a melhor.
-          </p>
+        <div class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+          <div class="me-5 d-none d-lg-block">
+           <span>Aviagem nas redes sociais:</span>
+          </div>
+          <div>
+            <a href="" class="me-4 text-reset"><i class="bi bi-facebook"></i></a>
+            <a href="" class="me-4 text-reset"><i class="bi bi-twitter"></i></a>
+            <a href="" class="me-4 text-reset"><i class="bi bi-google"></i></a>
+            <a href="" class="me-4 text-reset"><i class="bi bi-instagram"></i></a>
+            <a href="" class="me-4 text-reset"><i class="bi bi-linkedin"></i></a>
+          </div>
         </div>
-        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
-          <h6 class="text-uppercase fw-bold mb-4">
-            Termos
-          </h6>
-          <p>Condições de uso do site</p>
-          <p>Condições Gerais</p>
-          <p>Politica de privacidade</p>
-        </div>
+        <div class="">
+          <div class="container text-center text-md-start mt-5">
+            <div class="row mt-3">
+            <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+              <h6 class="text-uppercase fw-bold mb-4">
+              <i class="fas fa-gem me-3"></i>AViagem
+              </h6>
+              <p>Aviagem está presente no Brasil e mais de 100 países para que possamos fazer de sua viagem a melhor.</p>
+            </div>
+            <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+              <h6 class="text-uppercase fw-bold mb-4">Termos</h6>
+              <p>Condições de uso do site</p>
+              <p>Condições Gerais</p>
+              <p>Politica de privacidade</p>
+            </div>
 
-        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
-          <h6 class="text-uppercase fw-bold mb-4">
-            Formas de pagamentos
-          </h6>
-          <p><img src="Imagens/mc.png" class="text-reset">MasterCard</p>
-          <p><img src="Imagens/bandeira amex png.png" class="text-reset" width="30"height="30"> AmericanExpress</p>
-          <p><img src="Imagens/elo 2.png" class="text-reset" width="30"height="30"> Elo</p>
-          <p><img src="Imagens/visa.png" class="text-reset" width="30"height="30"> Visa</p>
-          <p><img src="Imagens/boleto.png" class="text-reset" width="30"height="30"> Boleto</p>
+            <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+              <h6 class="text-uppercase fw-bold mb-4">Formas de pagamentos</h6>
+              <p><img src="Imagens/mc.png" class="text-reset">MasterCard</p>
+              <p><img src="Imagens/bandeira amex png.png" class="text-reset" width="30"height="30"> AmericanExpress</p>
+              <p><img src="Imagens/elo 2.png" class="text-reset" width="30"height="30"> Elo</p>
+              <p><img src="Imagens/visa.png" class="text-reset" width="30"height="30"> Visa</p>
+              <p><img src="Imagens/boleto.png" class="text-reset" width="30"height="30"> Boleto</p>
+            </div>
+            <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+              <h6 class="text-uppercase fw-bold mb-4">Contato</h6>
+              <p><i class="bi bi-house-fill"></i> Avenida Brasil 000- Rio de Janeiro - RJ</p>
+              <p><i class="bi bi-envelope"></i>aviagemsuporte@aviagem.com</p>
+              <p><i class="bi bi-telephone"></i> 080008080878808</p>
+              <p><i class="bi bi-phone-fill"></i> (00)0079-2890019</p>
+            </div>
+          </div>
         </div>
-        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
-          <h6 class="text-uppercase fw-bold mb-4">Contato</h6>
-          <p><i class="bi bi-house-fill"></i> Avenida Brasil 000- Rio de Janeiro - RJ</p>
-          <p><i class="bi bi-envelope"></i>aviagemsuporte@aviagem.com</p>
-          <p><i class="bi bi-telephone"></i> 080008080878808</p>
-          <p><i class="bi bi-phone-fill"></i> (00)0079-2890019</p>
+        <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05); width: 100%;">© 2022 Copyright: AVIAGEMTURISMO
         </div>
-      </div>
-    </div>
-  </div>
-  <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05); width: 100%;">
-    © 2022 Copyright: AVIAGEMTURISMO
-  </div>
 
       </footer>
       <!-- Footer -->
@@ -390,9 +378,9 @@
 
        
     </section>
-    <script src="js/carousel.js"></script>
     <!-- section site FIM-->
-    <script src="../../../../sitenovo/JS/script.js"></script>
+    
+    <script src="js/carousel.js"></script>
     <!-- jQuery -->
     <script src='https://code.jquery.com/jquery-3.3.1.slim.min.js'></script>
     <!-- Bootstrap JS -->
