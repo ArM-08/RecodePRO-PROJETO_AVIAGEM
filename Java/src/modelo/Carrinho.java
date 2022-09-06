@@ -6,13 +6,13 @@ import java.time.format.DateTimeFormatter;
 public class Carrinho {
 
     private int idCarrinho;
-    
+
     private double valorTotal;
     private Cliente idlogin;
     private LocalDate dataCompra;
     
     DateTimeFormatter formatter = DateTimeFormatter.ofPattern("dd/MM/yyyy");
-    
+
     public Carrinho(int idCarrinho, Date dataCompra, Double valorTotal, Cliente idlogin) {
     	this.idCarrinho = idCarrinho;
     	this.dataCompra = LocalDate.parse((CharSequence) dataCompra, formatter);
@@ -40,11 +40,10 @@ public class Carrinho {
 		return formatter.format(dataCompra);
 	}
 
-	public void setData_compra(String dataCompra) {
+	public void setdataCompra(String dataCompra) {
 		this.dataCompra = LocalDate.parse(dataCompra, formatter);
 	}
 
-  
     public void setCliente(Cliente idlogin) {
 		this.idlogin = idlogin;
 	}
