@@ -1,0 +1,371 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>AViagem</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS v5.2.0-beta1 -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"  integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <section class="home">
+          <!--Inicio NAVBAR-->
+          <header>
+            <nav class="navbar navbar-expand-lg bg-danger">
+              <div class="container-fluid">
+                <a class="navbar-brand" href="/"><img src="Imagens/pngwing.png" width="100" height="75"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item m-1">
+                  <a class="nav-link active" aria-current="page" href="/"> <b><b class="text-warning ">H</b>ome</b></a>
+                </li>
+                <li class="nav-item m-1">
+                  <a class="nav-link" href="/destinos"><b><b class="text-warning">D</b>estinos</b></a>
+                </li>
+                <li class="nav-item m-1">
+                  <a class="nav-link" href="/promoçoes"><b><b class="text-warning">P</b>romoções</b></a>
+                </li>
+                <li class="nav-item m-1">
+                  <a class="nav-link" href="/contato"><b><b class="text-warning">C</b>ontato</b></a>
+                </li>
+              </ul>
+                  <button type="button" class="btn btn-warning btn-round" data-toggle="modal" data-target="#loginModal">
+                    Login
+                  </button>
+                  <div class="modal fade" id="loginModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered" role="document">
+                      <div class="modal-content">
+                        <div class="modal-header border-bottom-0">
+                          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                          </button>
+                        </div>
+                        <div class="modal-body">
+                          <div class="form-title text-center">
+                            <h4>Login</h4>
+                          </div>
+                          <div class="d-flex flex-column text-center">
+                            <form>
+                              <div class="form-group p-2">
+                                <input type="email" class="form-control" id="email1"placeholder="Seu email...">
+                              </div>
+                              <div class="form-group p-2">
+                                <input type="password" class="form-control" id="password1" placeholder="Sua senha...">
+                              </div>
+                              <button type="button" class="btn btn-info btn-block btn-round">Login</button>
+                            </form>
+                            
+                            <div class="text-center delimiter">ou continue com o </div>
+                            <div class="d-flex justify-content-center social-buttons">
+                              <a class="btn btn-primary m-1" style="background-color: #dd4b39;" href="#!" role="button"><i class="bi bi-google"></i></a>
+                              </button>
+                              <a class="btn btn-primary m-1" style="background-color: #3b5998;" href="#!" role="button"><i class="bi bi-facebook"></i></a>
+                              </button>
+                              <a class="btn btn-primary m-1" style="background-color: #0082ca;" href="#!" role="button"><i class="bi bi-linkedin"></i></a>
+                            </di>
+                          </div>
+                        </div>
+                      </div>
+                        <div class="modal-footer d-flex justify-content-center">
+                          <div class="signup-section">Não é um membro ainda? <a href="/cliente/cadastrar" class="text-info"> Crie sua conta</a>.</div>
+                        </div>
+                    </div>
+                  </div>
+                </div>
+                </div>
+              </div>
+            </nav>
+          </header>
+          <!--Fim da NAVBAR-->
+          <!--primeira section-->  
+          <section class="row g-0 mt-3">
+            <div class="conteudo row g-0 d-flex justify-content-center">
+              <div class="col-10 shadow-info m-4 bg-warning" style="border-radius:50px">
+                <div class="row g-0 mx-5">
+                  <p class="col-12 h2 text-Dark p-4"style="font-family: tommy;">Passagens aéreas</p>
+                </div>
+                <div class="row g-0 m-1 ms-4">
+                  <div class="col-xxl-2 col-md-5 col-12">
+                    <form>
+                      <div class="mb-3 d-flex justify-content-center align-items-end text-center">
+                        <a class="btn btn-primary" style="background-color: #dd4b39; margin: 0px 10px 0px 0px;" role="button"><i class="bi bi-pin-map"></i></a>
+                        <div>
+                          <label for="exampleInputEmail1" class="form-label ">Embarque</label>
+                          <input type="text" class="form-control" id="exampleInputEmail1" style="margin-top:10px"placeholder="Busque uma cidade" aria-describedby="emailHelp"/>
+                        </div>
+                      </div>
+                    </form>
+                  </div>
+    
+                  <div class="col-xxl-2 col-md-5 col-12">
+                    <form>
+                      <div class="mb-3 d-flex justify-content-center align-items-end text-center">
+                        <a class="btn btn-primary" style="background-color: #dd4b39; margin: 0px 10px 0px 0px;" role="button"><i class="bi bi-pin-map-fill"></i></a>
+                        <div>
+                          <label for="exampleInputEmail1" class="form-label ">Desembarque</label>
+                          <input type="text" class="form-control" id="exampleInputEmail1" style="margin-top:10px"placeholder="Busque uma cidade" aria-describedby="emailHelp"/>
+                        </div>
+                      </div>
+                    </form>
+                  </div>
+                  
+                  <div class="col-xxl-3 col-md-5 col-12">
+                    <form>
+                      <div class="mb-3 d-flex justify-content-center align-items-end text-center">
+                        <a class="btn btn-primary" style="background-color: #dd4b39; margin: 0px 10px 0px 0px;" role="button"><i class="bi bi-calendar-date"></i></a>
+                          <div>
+                            <label for="exampleInputEmail1" class="form-label">Escolha a ida</label>
+                            <input type="date" class="form-control" id="exampleInputEmail1" style="margin-top:10px" placeholder="Ida" aria-describedby="emailHelp"/>
+                          </div>
+                        </div>
+                     
+                    </form>
+                  </div>
+                  <div class="col-xxl-3 col-md-5 col-12">
+                    <form>
+                      <div class="mb-3 d-flex justify-content-center align-items-end text-center">
+                        <a class="btn btn-primary" style="background-color: #dd4b39; margin: 0px 10px 0px 0px;" role="button"><i class="bi bi-calendar-date"></i></a>
+                          <div>
+                            <label for="exampleInputEmail1" class="form-label">Escolha a volta</label>
+                            <input type="date" class="form-control" id="exampleInputEmail1" style="margin-top:10px" placeholder="Ida" aria-describedby="emailHelp"/>
+                          </div>
+                        </div>
+                     
+                    </form>
+                  </div>
+                  <div class="col-xxl-1 col-md-1 col-12 d-flex justify-content-center align-items-end mb-3">
+                    <button type="submit" class="btn btn-dark">
+                      Buscar
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          
+          </section>
+          <!--=section FIM-->
+          <!--segunda section-->  
+          <section> 
+            <div class="container-promo">
+      <div class="row">
+        <div class="promo col-12">
+          <h1 class="tpromo">Destinos</h1>
+          <p class="t2promo">Em meio a tantos lugares maravilhosos para viajar, fica até difícil escolher os melhores, por isso aqui você terá acesso a todos os destinos disponiveis seja internacional ou nacional.</p>
+        </div>
+      </div>
+      
+            </div>
+          </section>
+          <!--=section FIM-->
+          <!--terceira section-->  
+          <section>
+            <div class="container">
+              <h2 style="font-family: tommy;">Nacionais</h2>
+        <div class="row">
+          <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xxl-3 ">
+            <div class="card mb-4" style="width: 18rem;">
+              <img src="imagens/rio de janeiro.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title2">Rio de Janeiro</h5>
+                <p class="card-text">O Rio de Janeiro, é a cidade brasileira mais conhecida no exterior tem a fama de possuir um povo alegre, ávido por sol, praia, futebol e samba..</p>
+                <a href="#" class="btn btn-dark">Comprar</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xxl-3">
+            <div class="card mb-4" style="width: 18rem;">
+              <img src="imagens/saopaulo.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title2">São Paulo</h5>
+                <p class="card-text">Esta metrópole é efervescente, viva e dada a muitas metamorfoses. Sempre haverá uma novidade a ser descoberta.</p>
+                <a href="#" class="btn btn-dark">Comprar</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xxl-3">
+            <div class="card mb-4" style="width: 18rem;">
+              <img src="imagens/espiritosanto.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title2">Espirito Santo</h5>
+                <p class="card-text">O Espírito Santo, estado da região Sudeste do Brasil, é conhecido por suas praias tropicais e áreas naturais montanhosas preservadas.</p>
+                <a href="#" class="btn btn-dark">Comprar</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xxl-3">
+            <div class="card mb-4" style="width: 18rem;">
+              <img src="imagens/florianopolis.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title2">Florianopolis</h5>
+                <p class="card-text">A combinação do número cabalístico “42 praias” com a expressão mágica “qualidade de vida” faz de Floripa um destino desejado tanto para passar férias quanto para viver.</p>
+                <a href="#" class="btn btn-dark">Comprar</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xxl-3">
+            <div class="card mb-4" style="width: 18rem;">
+              <img src="imagens/recife.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title2">Recife</h5>
+                <p class="card-text">Uma das capitais mais vibrantes do Nordeste, Recife aposta em atrações culturais e gastronômicas.</p>
+                <a href="#" class="btn btn-dark">Comprar</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xxl-3">
+            <div class="card mb-4" style="width: 18rem;">
+              <img src="imagens/manaus.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title2">Manaus</h5>
+                <p class="card-text">Conhecer Manaus é se deslumbrar com as surpresas de uma região ímpar, onde a natureza impõe soberania incontestável.</p>
+                <a href="#" class="btn btn-dark">Comprar</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xxl-3">
+            <div class="card mb-4" style="width: 18rem;">
+              <img src="imagens/brasilia.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title2">Brasilia</h5>
+                <p class="card-text"> Única cidade moderna do mundo a receber o título de Patrimônio Cultural da Humanidade, Brasília é peculiar sob todos os aspectos.</p>
+                <a href="#" class="btn btn-dark">Comprar</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xxl-3">
+            <div class="card mb-4" style="width: 18rem;">
+              <img src="imagens/curitiba.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title2">Curitiba</h5>
+                <p class="card-text">A cidade de Curitiba, capital do estado do Paraná, é conhecida pelo cuidado com o planejamento urbano, belas áreas verdes e um transporte público de qualidade.</p>
+                <a href="#" class="btn btn-dark">Comprar</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <h2 style="font-family: tommy;">Internacionais</h2>
+        </div>
+        <div class="row">
+          <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xxl-3">
+            <div class="card mb-4" style="width: 18rem;">
+              <img src="imagens/estadosunidos.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title2">Estados Unidos</h5>
+                <p class="card-text">Nova York, um centro financeiro e cultural global, e a capital, Washington, DC.</p>
+                <a href="#" class="btn btn-dark">Comprar</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xxl-3">
+            <div class="card mb-4" style="width: 18rem;">
+              <img src="imagens/frança.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title2">França</h5>
+                <p class="card-text">A França, na Europa Ocidental, tem cidades medievais, aldeias alpinas e praias mediterrâneas. </p>
+                <a href="#" class="btn btn-dark">Comprar</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xxl-3">
+            <div class="card mb-4" style="width: 18rem;">
+              <img src="imagens/italia.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title2">Italia</h5>
+                <p class="card-text">A Itália, país europeu com uma longa costa mediterrânea, deixou uma marca poderosa na culinária e na cultura ocidentais.</p>
+                <a href="#" class="btn btn-dark">Comprar</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xxl-3">
+            <div class="card mb-4" style="width: 18rem;">
+              <img src="imagens/argentina.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title2">Argentina</h5>
+                <p class="card-text">A Argentina é um país da América do Sul com uma área extensa que abrange montanhas dos Andes, lagos glaciais e pradarias nos Pampas, ocupadas tradicionalmente por seu famoso gado.</p>
+                <a href="#" class="btn btn-dark">Comprar</a>
+              </div>
+            </div>
+          </div>
+        </div>
+            </div>  
+          </section>
+          <!--=section FIM-->
+          <!-- Footer -->
+          <footer class="text-center text-lg-start bg-light text-muted">
+            <div class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+              <div class="me-5 d-none d-lg-block">
+               <span>Aviagem nas redes sociais:</span>
+              </div>
+              <div>
+                <a href="" class="me-4 text-reset"><i class="bi bi-facebook"></i></a>
+                <a href="" class="me-4 text-reset"><i class="bi bi-twitter"></i></a>
+                <a href="" class="me-4 text-reset"><i class="bi bi-google"></i></a>
+                <a href="" class="me-4 text-reset"><i class="bi bi-instagram"></i></a>
+                <a href="" class="me-4 text-reset"><i class="bi bi-linkedin"></i></a>
+              </div>
+            </div>
+            <div class="">
+              <div class="container text-center text-md-start mt-5">
+                <div class="row mt-3">
+                <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                  <h6 class="text-uppercase fw-bold mb-4">
+                  <i class="fas fa-gem me-3"></i>AViagem
+                  </h6>
+                  <p>Aviagem está presente no Brasil e mais de 100 países para que possamos fazer de sua viagem a melhor.</p>
+                </div>
+                <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                  <h6 class="text-uppercase fw-bold mb-4">Termos</h6>
+                  <p>Condições de uso do site</p>
+                  <p>Condições Gerais</p>
+                  <p>Politica de privacidade</p>
+                </div>
+  
+                <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                  <h6 class="text-uppercase fw-bold mb-4">Formas de pagamentos</h6>
+                  <p><img src="Imagens/mc.png" class="text-reset">MasterCard</p>
+                  <p><img src="Imagens/bandeira amex png.png" class="text-reset" width="30"height="30"> AmericanExpress</p>
+                  <p><img src="Imagens/elo 2.png" class="text-reset" width="30"height="30"> Elo</p>
+                  <p><img src="Imagens/visa.png" class="text-reset" width="30"height="30"> Visa</p>
+                  <p><img src="Imagens/boleto.png" class="text-reset" width="30"height="30"> Boleto</p>
+                </div>
+                <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                  <h6 class="text-uppercase fw-bold mb-4">Contato</h6>
+                  <p><i class="bi bi-house-fill"></i> Avenida Brasil 000- Rio de Janeiro - RJ</p>
+                  <p><i class="bi bi-envelope"></i>aviagemsuporte@aviagem.com</p>
+                  <p><i class="bi bi-telephone"></i> 080008080878808</p>
+                  <p><i class="bi bi-phone-fill"></i> (00)0079-2890019</p>
+                </div>
+              </div>
+            </div>
+            <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05); width: 100%;">© 2022 Copyright: AVIAGEMTURISMO
+            </div>
+  
+          </footer>
+          <!-- Footer -->
+   
+    </section>
+
+    <!-- Bootstrap JavaScript Libraries -->
+  <script src="../../../../sitenovo/JS/script.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+    <!-- jQuery -->
+<script src='https://code.jquery.com/jquery-3.3.1.slim.min.js'></script>
+  
+    <!-- Bootstrap JS -->
+<script src='https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js'></script>
+    <!-- Bootstrap JavaScript Libraries -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script>
+  </body>
+</html>

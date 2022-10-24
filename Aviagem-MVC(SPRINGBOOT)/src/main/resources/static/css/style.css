@@ -1,0 +1,207 @@
+@font-face {
+    font-family: "tommy";
+    src: url(../fonts/MADE\ TOMMY\ Black_PERSONAL\ USE.otf);
+}
+
+.news{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+
+.cartao{
+    width: 100%;
+    padding: 10px;
+    
+}
+
+.newsletter{
+font-family: 'Times New Roman', Times, serif;
+font-style: italic;
+}
+.promo{
+    width: 100%;
+display: flex;
+flex-wrap: wrap;
+flex-direction: column;
+text-align: center;
+}
+.tpromo{
+    font-family:'tommy';
+padding: 30px
+}
+.t2promo{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-style: italic 
+}
+
+
+.card-promodisney{
+    width: 290px;
+    height: 300px;
+    background-image: url("../Imagens/disney.jpg") ;
+    border-radius: 10px;
+    margin: 15px 15px 30px 15px;
+    padding: 40px 10px 10px 10px;
+    text-align: center;
+}
+
+.card-promorio{
+    width: 290px;
+    height: 300px;
+    background-image: url("../Imagens/rio\ de\ janeiro.jpg") ;
+    border-radius: 10px;
+    margin: 15px 15px 15px 15px;
+    padding: 40px 10px 10px 10px;
+    text-align: center;
+
+}
+.card-promominas{
+    width: 290px;
+    height: 300px;
+    background-image: url("../Imagens/minas.jpg") ;
+    border-radius: 10px;
+    margin: 15px 15px 15px 15px;
+    padding: 40px 10px 10px 10px;
+    text-align: center;
+
+}
+.card-promonatal{
+    width: 290px;
+    height: 300px;
+    background-image: url("../Imagens/natal.jpg") ;
+    border-radius: 10px;
+    margin: 15px 15px 15px 15px;
+    padding: 40px 10px 10px 10px;
+    text-align: center;
+
+}
+.card-promogramado{
+    width: 290px;
+    height: 300px;
+    background-image: url("../Imagens/gramado.jpg") ;
+    border-radius: 10px;
+    margin: 15px 15px 15px 15px;
+    padding: 40px 10px 10px 10px;
+    text-align: center;
+
+}
+.card-promobahia{
+    width: 290px;
+    height: 300px;
+    background-image: url("../Imagens/bahia.jpg") ;
+    border-radius: 10px;
+    margin: 15px 15px 30px 15px;
+    padding: 40px 10px 10px 10px;
+    text-align: center;
+
+}
+.card-promoporto{
+    width: 290px;
+    height: 300px;
+    background-image: url("../Imagens/porto\ de\ galinhas.jpg") ;
+    border-radius: 10px;
+    margin: 15px 15px 30px 15px;
+    padding: 40px 10px 10px 10px;
+    text-align: center;
+
+}
+.card-promoparis{
+    width: 290px;
+    height: 300px;
+    background-image: url("../Imagens/paris.jpg") ;
+    border-radius: 10px;
+    margin: 15px 15px 30px 15px;
+    padding: 40px 10px 10px 10px;
+    text-align: center;
+
+}
+.card-title{
+    padding-bottom: 150px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+}
+
+.card-title2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+.container-conta{
+    background-image: linear-gradient(rgb(255, 197, 197), white);
+    padding: 20px;
+}
+.tel{
+    font-style: italic;
+}
+.container-cards{
+    padding: 15px;
+  
+}
+
+.card-link{
+    text-decoration: none;
+}
+
+.home{
+    background-image: linear-gradient(rgb(255, 197, 197), white)
+}
+
+
+
+@media (max-width: 767px) {
+    .carousel-inner .carousel-item > div {
+        display: none;
+    }
+    .carousel-inner .carousel-item > div:first-child {
+        display: block;
+    }
+  }
+  
+  .carousel-inner .carousel-item.active,
+  .carousel-inner .carousel-item-next,
+  .carousel-inner .carousel-item-prev {
+    display: flex;
+  }
+  
+  /* medium and up screens */
+  @media (min-width: 768px) {
+    
+    .carousel-inner .carousel-item-end.active,
+    .carousel-inner .carousel-item-next {
+      transform: translateX(25%);
+    }
+    
+    .carousel-inner .carousel-item-start.active, 
+    .carousel-inner .carousel-item-prev {
+      transform: translateX(-25%);
+    }
+  }
+  
+  .carousel-inner .carousel-item-end,
+  .carousel-inner .carousel-item-start { 
+  transform: translateX(0);
+  }
+
+  .blockquote-custom {
+    position: relative;
+    font-size: 1.1rem;
+  }
+  
+  .blockquote-custom-icon {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: -25px;
+    left: 50px;
+    font-size: 1.7rem;
+  }
+
+
+
+
