@@ -28,6 +28,11 @@ public class HomeController {
         
         return "contato";
     }
+    @GetMapping("/login")
+    public String login() {
+        
+        return "login";
+    }
 }
 
 
