@@ -26,7 +26,7 @@ const NavBar = () => {
                         <button type="button" className="btn btn-warning btn-round" data-toggle="modal" data-target="#loginModal">
                             Login
                         </button>
-                        <div className="modal fade" id="loginModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div className="modal fade" id="loginModal" tabIndex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
                             <div className="modal-dialog modal-dialog-centered" role="document">
                             <div className="modal-content">
                                 <div className="modal-header border-bottom-0">
@@ -53,9 +53,9 @@ const NavBar = () => {
                                     <div className="d-flex justify-content-center social-buttons">
                                     <a className="btn btn-primary m-1"  href="#!" role="button"><i className="bi bi-google"></i></a>
                                     
-                                    <a class="btn btn-primary m-1"  href="#!" role="button"><i className="bi bi-facebook"></i></a>
+                                    <a className="btn btn-primary m-1"  href="#!" role="button"><i className="bi bi-facebook"></i></a>
                                     
-                                    <a class="btn btn-primary m-1"  href="#!" role="button"><i className="bi bi-linkedin"></i></a>
+                                    <a className="btn btn-primary m-1"  href="#!" role="button"><i className="bi bi-linkedin"></i></a>
                                     </div>
                                 </div>
                                 </div>

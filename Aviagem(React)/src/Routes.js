@@ -4,6 +4,7 @@ import Destinos from './Pages/Destinos.js';
 import Promocoes from './Pages/Promocoes';
 import Contato from './Pages/Contato';
 import {BrowserRouter, Routes, Route} from 'react-router-dom';
+import PesquisaPassagem from './Pages/PesquisaPassagem.js';
 
 const MainRoutes = () => {
 
@@ -16,6 +17,7 @@ const MainRoutes = () => {
           <Route path='/destinos' element={<Destinos/>} />
           <Route path='/promocoes' element={<Promocoes/>}/>
           <Route path='/contato' element={<Contato/>} />
+          <Route path='/busca' element={<PesquisaPassagem/>} />
         </Routes>
         </BrowserRouter>
     )

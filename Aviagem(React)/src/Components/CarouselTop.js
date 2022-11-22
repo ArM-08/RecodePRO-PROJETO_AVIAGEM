@@ -15,13 +15,13 @@ const responsive = {
 };
 
 const items = [
-    <div className="item" data-value="1"style = {{padding:"2px"}}><img src = {Rio} class="img-fluid"/><div class="card-img-overlay text-center text-light" style={{WebkitTextStrokeWidth: "1px", WebkitTextStrokeColor: "black"}} > <h2>Rio de Janeiro</h2></div></div>,
-    <div className="item" data-value="2"style = {{padding:"2px"}}><img src = {Floripa}class="img-fluid"/> <div class="card-img-overlay text-center text-light"style={{WebkitTextStrokeWidth: "1px", WebkitTextStrokeColor: "black"}}><h2>Florianópolis</h2></div></div>,
-    <div className="item" data-value="3" style = {{padding:"2px"}}class="img-fluid"><img src = {PortoDeGalinhas}class="img-fluid"/><div class="card-img-overlay text-center text-light"style={{WebkitTextStrokeWidth: "1px", WebkitTextStrokeColor: "black"}}><h2>Porto de galinhas</h2></div>
+    <div className="item" data-value="1"style = {{padding:"2px"}}><img src = {Rio} className="img-fluid"/><div className="card-img-overlay text-center text-light" style={{WebkitTextStrokeWidth: "1px", WebkitTextStrokeColor: "black"}} > <h2>Rio de Janeiro</h2></div></div>,
+    <div className="item" data-value="2"style = {{padding:"2px"}}><img src = {Floripa}className="img-fluid"/> <div className="card-img-overlay text-center text-light"style={{WebkitTextStrokeWidth: "1px", WebkitTextStrokeColor: "black"}}><h2>Florianópolis</h2></div></div>,
+    <div className="item" data-value="3" style = {{padding:"2px"}}><img src = {PortoDeGalinhas}className="img-fluid"/><div className="card-img-overlay text-center text-light"style={{WebkitTextStrokeWidth: "1px", WebkitTextStrokeColor: "black"}}><h2>Porto de galinhas</h2></div>
     </div>,
-    <div className="item" data-value="4"style = {{padding:"2px"}}><img src = {Recife}class="img-fluid"/><div class="card-img-overlay text-center text-light"style={{WebkitTextStrokeWidth: "1px", WebkitTextStrokeColor: "black"}}><h2>Recife</h2></div></div>,
-    <div className="item" data-value="5"style = {{padding:"2px"}}><img src = {Disney}class="img-fluid"/><div class="card-img-overlay text-center text-light"style={{WebkitTextStrokeWidth: "1px", WebkitTextStrokeColor: "black"}}><h2>Disney</h2></div></div>,
-    <div className="item" data-value="6"style = {{padding:"2px"}}><img src = {Paris}class="img-fluid"/><div class="card-img-overlay text-center text-light"style={{WebkitTextStrokeWidth: "1px", WebkitTextStrokeColor: "black"}}><h2>Paris</h2></div></div>,
+    <div className="item" data-value="4"style = {{padding:"2px"}}><img src = {Recife}className="img-fluid"/><div className="card-img-overlay text-center text-light"style={{WebkitTextStrokeWidth: "1px", WebkitTextStrokeColor: "black"}}><h2>Recife</h2></div></div>,
+    <div className="item" data-value="5"style = {{padding:"2px"}}><img src = {Disney}className="img-fluid"/><div className="card-img-overlay text-center text-light"style={{WebkitTextStrokeWidth: "1px", WebkitTextStrokeColor: "black"}}><h2>Disney</h2></div></div>,
+    <div className="item" data-value="6"style = {{padding:"2px"}}><img src = {Paris}className="img-fluid"/><div className="card-img-overlay text-center text-light"style={{WebkitTextStrokeWidth: "1px", WebkitTextStrokeColor: "black"}}><h2>Paris</h2></div></div>,
 ];
 
 const CarouselTop = () => (
@@ -32,7 +32,8 @@ const CarouselTop = () => (
         controlsStrategy="alternate"
         infinite= "true"
         autoPlay= "true"
-        autoPlayInterval= "1500"
+        autoPlayInterval= "2000"
+        disableButtonsControls="true"
     />
 );
 export default CarouselTop;

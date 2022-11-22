@@ -1,5 +1,17 @@
 import BuscaPassagem from "../Components/BuscaPassagem"
 import "../Components/Assets/css/style.css"
+import CardsPromoçoes from "../Components/CardsPromoçoes"
+import RiodeJaneiro from "../Components/Assets/Imagens/rio de janeiro.jpg"
+import Minas from "../Components/Assets/Imagens/minas.jpg"
+import Natal from "../Components/Assets/Imagens/natal.jpg"
+import Gramado from "../Components/Assets/Imagens/gramado.jpg"
+import Bahia from "../Components/Assets/Imagens/bahia.jpg"
+import PortodeGalinhas from "../Components/Assets/Imagens/porto de galinhas.jpg"
+import Paris from "../Components/Assets/Imagens/paris.jpg"
+import Disney from "../Components/Assets/Imagens/disney.jpg"
+
+
+
 
 const Promocoes = () => {
     return (
@@ -7,68 +19,80 @@ const Promocoes = () => {
             <BuscaPassagem>
             </BuscaPassagem>
             <section>
-              <div class="row justify-content-center">
-                <div class="promo col-12">
-                   <h1 class="tpromo">PROMOÇÕES</h1>
-                    <p class="t2promo">Aqui você encontra a viagem perfeita com os melhores preços.</p>
+              <div className="row justify-content-center">
+                <div className="promo col-12">
+                   <h1 className="tpromo">PROMOÇÕES</h1>
+                    <p className="t2promo">Aqui você encontra a viagem perfeita com os melhores preços.</p>
                 </div>
               </div>
             
-            <div class="container-fluid justify-content-center align-itens-center ">
-              <div class="row  justify-content-center">
-                <div class="promocoes col-12 col-sm-12 col-md-6 col-lg-6 col-xxl-3">
-                  <div class="card-promorio">
-                  <h4 class="card-title">Rio de Janeiro</h4>
-                  <a href="#" class="btn btn-dark">R$ 300,00</a>
-                  </div>
+            <div className="container-fluid justify-content-center align-itens-center ">
+              <div className="row  justify-content-center">
+                
+                <div className="promocoes col-12 col-sm-12 col-md-6 col-lg-6 col-xxl-3">
+                  <CardsPromoçoes
+         img={RiodeJaneiro}
+         titulo='Rio de Janeiro'
+         preco = 'De R$ 400 por R$ 300'
+         />
                 </div>
-                <div class="promocoes col-12 col-sm-12 col-md-6 col-lg-6 col-xxl-3">
-                  <div class="card-promominas">
-                    <h4 class="card-title">Minas Gerais</h4>
-                    <a href="#" class="btn btn-dark">R$ 250,00</a>
-                  </div>
+                <div className="promocoes col-12 col-sm-12 col-md-6 col-lg-6 col-xxl-3">
+                <CardsPromoçoes
+         img={Minas}
+         titulo='Minas Gerais'
+         preco = 'De R$ 300 por R$ 200'
+         />
                 </div>
 
-                <div class="promocoes col-12 col-sm-12 col-md-6 col-lg-6 col-xxl-3">
-                  <div class="card-promonatal">
-                    <h4 class="card-title">Natal</h4>
-                    <a href="#" class="btn btn-dark">R$ 500,00</a>
-                  </div>
+                <div className="promocoes col-12 col-sm-12 col-md-6 col-lg-6 col-xxl-3">
+                
+                  <CardsPromoçoes
+         img={Natal}
+         titulo='Natal'
+         preco = 'De R$ 700 por R$ 500'
+         />
+                    
                 </div>
-                <div class="promocoes col-12 col-sm-12 col-md-6 col-lg-6 col-xxl-3">
-                  <div class="card-promogramado">
-                    <h4 class="card-title">Gramado</h4>
-                    <a href="#" class="btn btn-dark">R$ 350,00</a>
-                  </div>
+                <div className="promocoes col-12 col-sm-12 col-md-6 col-lg-6 col-xxl-3">
+                <CardsPromoçoes
+         img={Gramado}
+         titulo='Gramado'
+         preco = 'De R$ 500 por R$ 350'
+         />
+                  
                 </div>
               </div>
 
-              <div class="row justify-content-center">
-                <div class="promocoes col-12 col-sm-12 col-md-6 col-lg-6 col-xxl-3">
-                  <div class="card-promobahia">
-                    <h4 class="card-title">Bahia</h4>
-                    <a href="#" class="btn btn-dark">R$ 450,00</a>
-                  </div>
+              <div className="row justify-content-center">
+                <div className="promocoes col-12 col-sm-12 col-md-6 col-lg-6 col-xxl-3">
+                <CardsPromoçoes
+         img={Bahia}
+         titulo='Bahia'
+         preco = 'De R$ 600 por R$ 450'
+         />
                 </div>
-                <div class="promocoes col-12 col-sm-12 col-md-6 col-lg-6 col-xxl-3">
-                  <div class="card-promoporto">
-                    <h4 class="card-title">Porto de Galinhas</h4>
-                    <a href="#" class="btn btn-dark">R$ 500,00</a>
-                  </div>
-                </div>
-  
-                <div class="promocoes col-12 col-sm-12 col-md-6 col-lg-6 col-xxl-3">
-                  <div class="card-promoparis">
-                    <h4 class="card-title">Paris</h4>
-                    <a href="#" class="btn btn-dark">R$ 999,00</a>
-                  </div>
+                <div className="promocoes col-12 col-sm-12 col-md-6 col-lg-6 col-xxl-3">
+                <CardsPromoçoes
+         img={PortodeGalinhas}
+         titulo='Porto de Galinhas'
+         preco = 'De R$ 800 por R$ 550'
+         />   
                 </div>
   
-                <div class="promocoes col-12 col-sm-12 col-md-6 col-lg-6 col-xxl-3">
-                  <div class="card-promodisney">
-                    <h4 class="card-title">Disney</h4>
-                    <a href="#" class="btn btn-dark">R$ 990,00</a>
-                  </div>
+                <div className="promocoes col-12 col-sm-12 col-md-6 col-lg-6 col-xxl-3">
+                <CardsPromoçoes
+         img={Paris}
+         titulo='Paris'
+         preco = 'De R$ 1200 por R$ 990'
+         />              
+                </div>
+  
+                <div className="promocoes col-12 col-sm-12 col-md-6 col-lg-6 col-xxl-3">
+                <CardsPromoçoes
+         img={Disney}
+         titulo='Disney'
+         preco = 'De R$ 1200 por R$ 990'
+         /> 
                 </div>
               </div>
             </div>

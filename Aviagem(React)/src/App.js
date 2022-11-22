@@ -5,11 +5,11 @@ import MainRoutes from './Routes';
 function App() {
   return (
     <div>
-      <NavBar>
-      </NavBar>
+      <NavBar/>
+   
       <MainRoutes/>
-      <Footer>
-      </Footer>
+      <Footer/>
+      
   </div>
   );
 }
