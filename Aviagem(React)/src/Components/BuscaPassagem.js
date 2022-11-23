@@ -1,8 +1,5 @@
-import { Route } from "react-router-dom";
-import PesquisaPassagem from "../Pages/PesquisaPassagem";
 
-
-const BuscaPassagem = () => {
+const BuscaPassagem = (saida, destino, diaida, diavolta) => {
     return(
         <div>
  <section className="row g-0 mt-3">
@@ -18,7 +15,7 @@ const BuscaPassagem = () => {
                     <a className="btn btn-primary" style={{backgroundColor: "#dd4b39", margin: "45px 10px 0px 0px"}} href="#!" role="button"><i className="bi bi-pin-map"></i></a>
                     <div>
                       <label htmlFor="exampleInputEmail1" className="form-label">De onde você está saindo?</label>
-                      <input type="text" className="form-control" id="exampleInputEmail1" style={{marginTop:"10px"}} placeholder="Busque um aeroporto" aria-describedby="emailHelp"/>
+                      <input type="text" className="form-control" id={saida} style={{marginTop:"10px"}} placeholder="Busque um aeroporto" aria-describedby="emailHelp" />
                     </div>
                   </div>
                 </form>
@@ -30,7 +27,7 @@ const BuscaPassagem = () => {
                     <a className="btn btn-primary mt-6" style={{backgroundColor: "#dd4b39", margin: "45px 10px 0px 0px"}} href="#!" role="button"><i className="bi bi-pin-map-fill"></i></a>
                     <div>
                       <label htmlFor="exampleInputEmail1" className="form-label ">Para onde você vai?</label>
-                      <input type="text" className="form-control" id="exampleInputEmail1" style={{marginTop:"10px"}} placeholder="Busque uma cidade" aria-describedby="emailHelp"/>
+                      <input type="text" className="form-control" id={destino} style={{marginTop:"10px"}} placeholder="Busque uma cidade" aria-describedby="emailHelp"/>
                     </div>
                   </div>
                 </form>
@@ -43,7 +40,7 @@ const BuscaPassagem = () => {
                       <label htmlFor="exampleInputEmail1" className="form-label " style={{marginLeft: "60px"}} >Escolha o periodo</label>
                       <div className="d-flex justify-content-around align-items-center">
                         <a className="btn btn-primary mb-2 " style={{backgroundColor: "#dd4b39"}} role="button"><i className="bi bi-calendar-date"></i></a>
-                        <input type="date" className="form-control " style={{margin:"10px"}} id="exampleInputEmail1" placeholder="Ida" aria-describedby="emailHelp"/>
+                        <input type="date" className="form-control " style={{margin:"10px"}} id={diaida} placeholder="Ida" aria-describedby="emailHelp"/>
                       </div>
                     </div>
                   </div>
@@ -55,7 +52,7 @@ const BuscaPassagem = () => {
                     <div>
                       <label htmlFor="exampleInputEmail1" className="form-label" style={{marginLeft: "60px"}}>Volta</label>
                       <div className="d-flex justify-content-around align-items-center">
-                        <input type="date" className="form-control " style={{margin:"10px"}} id="exampleInputEmail1" placeholder="volta" aria-describedby="emailHelp"/>
+                        <input type="date" className="form-control " style={{margin:"10px"}} id={diavolta} placeholder="volta" aria-describedby="emailHelp"/>
                       </div>
                     </div>
                   </div>

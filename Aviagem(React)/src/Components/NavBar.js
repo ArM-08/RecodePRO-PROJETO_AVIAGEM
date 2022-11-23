@@ -1,4 +1,5 @@
 import logo from './Assets/Imagens/pngwing.png'
+import Pesquisa from './Pesquisa'
 const NavBar = () => {
     return(
         <div>
@@ -23,6 +24,7 @@ const NavBar = () => {
                             <a className="nav-link" href="/Contato"><b><b className="text-warning">C</b>ontato</b></a>
                             </li>
                         </ul>
+                        
                         <button type="button" className="btn btn-warning btn-round" data-toggle="modal" data-target="#loginModal">
                             Login
                         </button>
