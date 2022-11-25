@@ -1,6 +1,40 @@
+import { useNavigate } from 'react-router-dom'
 import logo from './Assets/Imagens/pngwing.png'
-import Pesquisa from './Pesquisa'
+import {useState} from 'react';
+
+
+
+
+
 const NavBar = () => {
+
+    const navigate = useNavigate();
+
+    const [form, setForm] = useState({
+        email: '',
+        password: ''
+    });
+
+    const handleChange = (e) => {
+        setForm({
+            ...form,
+            [e.target.name]: e.target.value
+        });
+    }
+
+    const handleSubmit = (e) => {
+        e.preventDefault();
+        if (form.email == "teste@aviagem.com" && form.password == "teste123") {
+            localStorage.setItem('token', true);
+                navigate('/admin')
+                document.getElementById("closed").click();
+               
+              
+        } else{
+            alert('Email ou senha incorreto')
+        }
+    }
+
     return(
         <div>
             <nav className="navbar navbar-expand-lg bg-danger">
@@ -32,7 +66,7 @@ const NavBar = () => {
                             <div className="modal-dialog modal-dialog-centered" role="document">
                             <div className="modal-content">
                                 <div className="modal-header border-bottom-0">
-                                <button type="button" className="close" data-dismiss="modal" aria-label="Close">
+                                <button type="button" className="close" id='closed' data-dismiss="modal" aria-label="Close">
                                     <span aria-hidden="true">&times;</span>
                                 </button>
                                 </div>
@@ -41,14 +75,31 @@ const NavBar = () => {
                                     <h4>Login</h4>
                                 </div>
                                 <div className="d-flex flex-column text-center">
-                                    <form>
+                                    <form id="formModal"
+                                    onSubmit={handleSubmit}
+                                    >
                                     <div className="form-group p-2">
-                                        <input type="email" className="form-control" id="email1"placeholder="Seu email..."/>
+                                        <input className="form-control"
+                                        type="email" 
+                                        name='email'
+                                        value={form.email}
+                                        onChange={handleChange} 
+                                        placeholder='Digite seu email' 
+                                        required
+                                        />
                                     </div>
                                     <div className="form-group p-2">
-                                        <input type="password" className="form-control" id="password1" placeholder="Sua senha..."/>
+                                        <input  className="form-control"
+                                        type="password" 
+                                        name="password"
+                                        value={form.password}
+                                        onChange={handleChange} 
+                                        placeholder='Sua senha' 
+                                        required
+                                        />
                                     </div>
-                                    <button type="button" className="btn btn-info btn-block btn-round">Login</button>
+                                    
+                                    <button type="submit" className="btn btn-info btn-block btn-round"  >Login</button>
                                     </form>
                                     
                                     <div className="text-center delimiter">ou continue com o </div>
@@ -63,7 +114,7 @@ const NavBar = () => {
                                 </div>
                             
                                 <div className="modal-footer d-flex justify-content-center">
-                                <div className="signup-section">Não é um membro ainda? <a href="#a" className="text-info"> Crie sua conta</a>.</div>
+                                <div className="signup-section">Não é um membro ainda? <a href="/cadastro" className="text-info"> Crie sua conta</a>.</div>
                                 </div>
                                 </div>
                             </div>

@@ -9,13 +9,14 @@ import Bahia from "../Components/Assets/Imagens/bahia.jpg"
 import PortodeGalinhas from "../Components/Assets/Imagens/porto de galinhas.jpg"
 import Paris from "../Components/Assets/Imagens/paris.jpg"
 import Disney from "../Components/Assets/Imagens/disney.jpg"
-
-
+import NavBar from './../Components/NavBar'
+import Footer from "../Components/Footer"
 
 
 const Promocoes = () => {
     return (
         <div>
+              <NavBar/>
             <BuscaPassagem>
             </BuscaPassagem>
             <section>
@@ -97,6 +98,7 @@ const Promocoes = () => {
               </div>
             </div>
             </section>
+            <Footer/>
         </div>
     )
 }

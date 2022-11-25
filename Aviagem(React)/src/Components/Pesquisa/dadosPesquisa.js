@@ -12,17 +12,17 @@ import Italia from "../Assets/Imagens/italia.jpg"
 import Argentina from "../Assets/Imagens/argentina.jpg"
 
 export const Destinos =[
-    {nome: 'Rio de Janeiro', valor: 300.00, src: RiodeJaneiro},
-    {nome: 'São Paulo', valor: 200.00, src: SaoPaulo},
-    {nome: 'EspiritoSanto', valor: 200.00, src: EspiritoSanto},
-    {nome: 'Florianopolis', valor: 400.00, src: Florianopolis},
-    {nome: 'Recife', valor: 500.00, src: Recife},
-    {nome: 'Manaus', valor: 600.00, src: Manaus},
-    {nome: 'Brasilia', valor: 300.00, src: Brasilia},
-    {nome: 'Curitiba', valor: 500.00, src: Curitiba},
-    {nome: 'Estados Unidos', valor: 990.00, src: EstadosUnidos},
-    {nome: 'França', valor: 990.00, src: França},
-    {nome: 'Italia', valor: 990.00, src: Italia},
-    {nome: 'Argentina', valor: 800.00, src: Argentina},
+    {nome: 'Rio de Janeiro', valor: 'R$ 300.00', src: RiodeJaneiro},
+    {nome: 'São Paulo', valor: 'R$ 200.00', src: SaoPaulo},
+    {nome: 'EspiritoSanto', valor: 'R$ 200.00', src: EspiritoSanto},
+    {nome: 'Florianopolis', valor: 'R$ 400.00', src: Florianopolis},
+    {nome: 'Recife', valor: 'R$ 500.00', src: Recife},
+    {nome: 'Manaus', valor: 'R$ 600.00', src: Manaus},
+    {nome: 'Brasilia', valor: 'R$ 300.00', src: Brasilia},
+    {nome: 'Curitiba', valor: 'R$ 500.00', src: Curitiba},
+    {nome: 'Estados Unidos', valor: 'R$ 990.00', src: EstadosUnidos},
+    {nome: 'França', valor: 'R$ 990.00', src: França},
+    {nome: 'Italia', valor: 'R$ 990.00', src: Italia},
+    {nome: 'Argentina', valor: 'R$ 800.00', src: Argentina},
 
 ]

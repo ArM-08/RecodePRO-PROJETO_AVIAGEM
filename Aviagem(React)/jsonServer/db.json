@@ -1,0 +1,181 @@
+{
+    "destinos": [
+        {
+            "image":"https://s2.glbimg.com/EjFgWZTAI2r2bdzZnZROgQ4V3BY=/0x0:2048x1365/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2018/6/k/Mc8FdjTAaGxaRXLTspeQ/3756139071-7503cdbe19-o.jpg",
+
+            "nome":"Rio de Janeiro",
+
+            "valor":"R$ 300,00",
+
+            "id":"1"
+
+
+        },
+        
+        {
+            "image":"https://viagemeturismo.abril.com.br/wp-content/uploads/2016/10/praia-de-boa-viagem_rafa-medeiros_prefeitura-do-recife.jpeg?quality=70&strip=info&w=925&w=636",
+
+            "nome":"Recife",
+
+            "valor":"R$ 500,00",
+
+            "id":"2"
+
+
+        },
+        {
+            "image":"https://viagemeturismo.abril.com.br/wp-content/uploads/2017/12/istock-842960000.jpg",
+
+            "nome":"São Paulo",
+
+            "valor":"R$ 200,00",
+
+            "id":"3"
+
+
+        },
+        {
+            "image":"https://dsdsuzy1jtjfw.cloudfront.net/wp-content/uploads/2019/11/praia-de-camburi_vitoria_setur_yuri-barichivich-2.jpg",
+
+            "nome":"Espirito Santo",
+
+            "valor":"R$ 200,00",
+
+            "id":"4"
+
+        },
+        {
+            "image":"https://a.cdn-hotels.com/gdcs/production182/d720/6de0e459-327d-41f3-91fb-f759cdb6098a.jpg",
+
+            "nome":"Florianópolis",
+
+            "valor":"R$ 400,00",
+
+            "id":"5"
+
+
+        },
+        {
+            "image":"https://www.cvc.com.br/dicas-de-viagem/wp-content/uploads/2018/06/manaus-teatro-amazonas-shutterstock-315330563.jpg",
+
+            "nome":"Manaus",
+
+            "valor":"R$ 500,00",
+
+            "id":"6"
+
+
+        },
+        {
+            "image":"https://www.cvc.com.br/dicas-de-viagem/wp-content/uploads/2018/04/topo-brasilia-congresso-nacional-credito-thinkstock-489728764.jpg",
+
+            "nome":"Brasilia",
+
+            "valor":"R$ 300,00",
+
+            "id":"7"
+
+
+        },
+        {
+            "image":"https://deixaeuviajar.com.br/wp-content/uploads/2018/09/jardim.jpg",
+
+            "nome":"Curitiba",
+
+            "valor":"R$ 500,00",
+
+            "id":"8"
+
+
+        },
+        {
+            "image":"https://www.universal-assistance.com/br-blog/wp-content/uploads/2022/03/seguro-viagem-eua-blog-ua-br-1.jpg",
+
+            "nome":"New York",
+
+            "valor":"R$ 1900,00",
+
+            "id":"9"
+
+
+        },
+        {
+            "image":"https://mapadomundo.org/wp-content/uploads/2017/03/mochilao-viagem-europa-istock-4.jpg",
+
+            "nome":"Paris",
+
+            "valor":"R$ 1800,00",
+
+            "id":"10"
+
+
+        },
+        {
+            "image":"https://s2.glbimg.com/iDz2P4tP7Pns9fM_9Zi4ebtXuZI=/smart/e.glbimg.com/og/ed/f/original/2020/11/24/veneza-anuncia-taxa-de-entrada-para-turistas-a-partir-de-2022.jpg",
+
+            "nome":"Veneza",
+
+            "valor":"R$ 1890,00",
+
+            "id":"11"
+
+
+        },
+        {
+            "image":"https://www.cvc.com.br/dicas-de-viagem/wp-content/uploads/2019/09/patagonia-argentina-734413168.jpg",
+
+            "nome":"Patagônia",
+
+            "valor":"R$ 1000,00",
+
+            "id":"12"
+
+
+        },
+        {
+            "image":"https://dynamic-media-cdn.tripadvisor.com/media/photo-o/14/10/2f/e4/toronto.jpg?w=700&h=500&s=1",
+
+            "nome":"Toronto",
+
+            "valor":"R$ 1500,00",
+
+            "id":"13"
+
+
+        },
+        {
+            "image":"https://catracalivre.com.br/wp-content/uploads/2018/10/japa-osaka-castelo-dicas-de-viagem-910x607.jpg",
+
+            "nome":"Osaka",
+
+            "valor":"R$ 1800,00",
+
+            "id":"14"
+
+
+        },
+        {
+            "image":"https://vemvoar.voeazul.com.br/wp-content/uploads/2021/04/vaticano.jpg",
+
+            "nome":"Vaticano",
+
+            "valor":"R$ 2000,00",
+
+            "id":"15"
+
+
+        },
+        {
+            "image":"https://magazine.zarpo.com.br/wp-content/uploads/2021/10/baia-dos-porcos_zarpo.jpg",
+
+            "nome":"Fernando de Noronha",
+
+            "valor":"R$ 2300,00",
+
+            "id":"16"
+
+
+        }
+
+    ]
+}

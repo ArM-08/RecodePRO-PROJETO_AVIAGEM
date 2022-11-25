@@ -1,5 +1,5 @@
 import BuscaPassagem from "../Components/BuscaPassagem";
-
+import NavBar from './../Components/NavBar'
 import "../Components/Assets/js/Carousel";
 import Aproveite from "../Components/Assets/Imagens/aproveite.jpg"
 import DicasMala from "../Components/Assets/Imagens/dicas de mala.png"
@@ -8,7 +8,7 @@ import GuiaPassageiro from "../Components/Assets/Imagens/Guia do passageiro.png"
 import "../Components/Assets/css/style.css"
 import { useForm } from 'react-hook-form'
 import CarouselTop from "../Components/CarouselTop";
-
+import Footer from "../Components/Footer";
 const Home = () => {
     const { register, handleSubmit } = useForm()
     const cadastroNewsletter = (email) => {
@@ -17,6 +17,7 @@ const Home = () => {
 
     return(
     <div>
+      <NavBar/>
         <BuscaPassagem/>
         <h3 style={{fontFamily:"Tommy, Cambria, Cochin, Georgia, Times, 'Times New Roman', serif"}}>Os mais buscados</h3>
         <CarouselTop></CarouselTop>
@@ -116,7 +117,7 @@ const Home = () => {
             
           </div>   
         </section>
-        
+        <Footer/>
     </div>
     )
 }

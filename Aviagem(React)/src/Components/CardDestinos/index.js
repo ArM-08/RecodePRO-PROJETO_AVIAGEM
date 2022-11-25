@@ -12,7 +12,8 @@ const CardDestinos = ({img, titulo, descricao}) => {
                 <div className="cardD-body">
                 <h5 className="cardD-title2">{titulo}</h5>
                 <p className="cardD-text">{descricao}</p>
-                <a href="#" className="btn btn-dark">Comprar</a>
+                
+                <a href="/cadastro" className="btn btn-dark">Comprar</a>
                 </div>
             </div>
         </div>

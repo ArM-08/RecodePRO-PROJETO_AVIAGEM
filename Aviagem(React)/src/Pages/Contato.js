@@ -1,5 +1,7 @@
 import "../Components/Assets/css/style.css"
 import { useForm } from 'react-hook-form'
+import NavBar from './../Components/NavBar'
+import Footer from "../Components/Footer";
 
 const Contato = () => {
   const { register, handleSubmit} = useForm()
@@ -9,7 +11,9 @@ const Contato = () => {
     }
       
   return (
+    
     <div>
+      <NavBar/>
       <div className="container-conta">
         <div className="row text-center mb-3">
           <h2 style={{fontFamily: "Tommy"}}>Como podemos ajudá-lo?</h2>
@@ -140,6 +144,7 @@ const Contato = () => {
           </div>
         </div>
       </div>
+      <Footer/>
     </div>
   );
 };
